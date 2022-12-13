@@ -15,4 +15,4 @@ int AckermanFunction(int num1, int num2)
 }
 
 int res = AckermanFunction(numberM, numberN);
-Console.Write(res);
+Console.Write($"m = {numberM}; n = {numberN} -> A(m,n) = {res}");
